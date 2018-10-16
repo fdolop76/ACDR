@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--
+	Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href='images/icou4.png' rel='shortcut icon' type='image/png'>
+		<title>Inscripción</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=open+sans' rel='stylesheet' type='text/css'>
+		<!--
+		[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]
+	-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<!--
+		[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]
+		-->
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+
+			<h1><a href="index.html">ACDR</a></h1>
+
+	<!--
+					<center><h2><a href="http://www.unav.edu.mx" target="_blank">UNAV</a></h2></center>
+				-->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="#">Actividades <span class="fa fa-angle-down"></span.></a>
+							<ul>
+								<li><a href="equiposdeportivos.html">Equipos deportivos</a></li>
+								<li><a href="#">Actividades culturales</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Registro</a></li>
+						<li><a href="tablaregistros.html">Tablas del torneo</a></li>
+						<li><a href="http://www.unav.edu.mx">Ir a página UNAV</a></li>
+					</ul>
+				</nav>
+			</header>
+
+<!-- ____________________________________________________________________________________________________________________________________ -->
+
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<div class="6u 12u(small)">
+
+
+
+
+
+									<form method="post" action="registro.php" role="form" enctype="multipart/form-data">
+										<div class="form-group" >
+										Nombre:<br>
+										<input type="text" placeholder="Nombre" name="Nombre"required><br>
+                                        </div>
+
+										<div class="form-group">
+										Apellidos:<br>
+										<input type="text" placeholder="Apellidos" name="Apellido"required><br>
+										</div>
+
+										<div class="form-group">
+										Correo:<br>
+										<input type="email" placeholder="Correo@unav.edu.mx" name="Correo"required><br>
+                                        </div>
+
+										Referencia:<br>
+										<div class="form-group">
+										<select name="Referencia" Class= "form-control" id="category" requiered>
+											<option value="">- Seleccione una opción -</option>
+											<option value="Interno">Interno</option>
+											<option value="Externo">Externo</option>
+											<option value="Colaborador">Colaborador</option>
+										</select><br>
+										<div>
+
+                                        Deporte al que deseas inscribirte:<br>
+										<div class="form-group">
+										<select name="Deporte" Class= "form-control" id="category" requiered>
+											<option value="">- Seleccione el deporte -</option>
+											<option value="Futbol">Futbol</option>
+											<option value="Basquetbol">Basquetbol</option>
+											<option value="Voleybol">Voleybol</option>
+											<option value="Atletismo">Atletismo</option>
+											<option value="Softbol">Softbol</option>
+										</select><br>
+										<div>
+
+
+                          <div class="form-group Futbol">
+								<select name="posfut" class="form-control" style="background-color:rgb(255,257,258);">
+									<option value=""selected>Seleccione una posición</option>
+									<option value="Defensa">Defensa</option>
+									<option value="Medio">Medio</option>
+									<option value="Delantero">Delantero</option>
+									<option value="Portero">Portero</option>
+								</select>
+							   </div>
+
+
+
+							   Sexo:<br>
+										<div class="form-group">
+											<select name="Sexo" Class= "form-control" id="category" requiered>
+													<option value="">- Seleccione el sexo -</option>
+													<option value="Hombre">Hombre</option>
+													<option value="Mujer">Mujer</option>
+																									
+											</select><br>
+										<div>	
+
+
+
+                                        <input onclick="myFunction()" type="submit" value="Inscribirse ">
+									</form>
+
+								</div><br><br><br><br>
+								<!-- staff use -->
+													<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+
+														<div class="contact-details">
+
+															<div class="con-info clearfix">
+																<i class="fa fa-archive fa-lg"></i>
+																<span><a href="login/">Uso exclusivo staff<br></a></span>
+
+															</div>
+														</div>
+													</div>
+
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<section class="4u 6u(medium) 12u$(small)">
+						<h3>Sé diferente...</h3>
+						<p>La Universidad de Navojoa es una de las tres instituciones de la Iglesia Adventista del Séptimo Día en México. La UNAV propone UNAVictoria segura en la aventura por los caminos del conocimiento, la cultura, el deporte, la ciencia, la recreación, la investigación, la vida social y espiritual como resultado de una grata vivencia al lado de nuestro excelente amigo: Jesucristo. Comprometidos a restaurar los valores eternos.</p>
+						<ul class="alt">
+							<li><a href="http://www.unav.edu.mx" target="_blank">VER MÁS DE LA UNAV</a></li>
+						</ul>
+					</section>
+					<section class="4u 6u$(medium) 12u$(small)">
+						<h3></h3>
+						<p>
+							<!-- poner imagen logo univerdsidad-->
+
+							<center> <img src="images/unavlogo.png" alt=""></center>
+
+
+						</p>
+						<ul class="alt">
+
+						</ul>
+					</section>
+					<section class="4u$ 12u$(medium) 12u$(small)">
+						<h3>Síguenos</h3>
+						<ul class="icons">
+							<li><a href="https://twitter.com/uni_navojoa?lang=es" class="icon rounded fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/UniNavojoa/" class="icon rounded fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.facebook.com/UniNavojoa/app/356915011040496/?ref=page_internal" class="icon rounded fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UCQZBvPiEam5AxsYaVR8FYGg" class="icon rounded fa-youtube" target="_blank"><span class="label">Youtube</span></a></li>
+
+
+
+						</ul>
+						<ul class="tabular">
+							<li>
+								<h3>Dirección</h3>
+								Carretera Navojoa-Huatbampo<br>
+								KM 13, Navojoa Sonora 85800
+							</li>
+							<li>
+								<h3>Correo</h3>
+								<a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#identifier" target="_blank">unav@unav.edu.mx</a>
+							</li>
+							<li>
+								<h3>Teléfono</h3>
+
+								Sólo en México 01 800 000 8628<br>
+								+52 (642) 423 3050, 51 y 54
+							</li>
+						</ul>
+					</section>
+				</div>
+				<ul class="copyright">
+					<li>&copy; Registrado. Todos los derechos reservados.</li>
+					<li>Edición: <a href="http://www.unav.edu.mx/unav2017/index.html" target="_blank">SAE_UNAV</a></li>
+				</ul>
+			</div>
+		</footer>
+
+
+<!-- Main jQuery
+		<script src="js/jquery-1.11.0.min.js"></script> -->
+
+		<script type="Application/javascript">
+			$(document).ready(function(){
+				$(".Futbol").hide();
+				$("select[name=Deporte]").change(function(){
+					//alert($(this).val());
+					if($(this).val()=='Futbol'){
+						$(".Futbol").show();
+					} else { $(".Futbol").hide(); }
+				});
+			});
+		</script>
+
+
+<script type="Application/javascript">
+			$(document).ready(function(){
+				$(".Basquetbol").hide();
+				$("select[name=Deporte]").change(function(){
+					//alert($(this).val());
+					if($(this).val()=='Basquetbol'){
+						$(".Basquetbol").show();
+					} else { $(".Basquetbol").hide(); }
+				});
+			});
+		</script>
+
+		<script type="Application/javascript">
+			$(document).ready(function(){
+				$(".Frontenis").hide();
+				$("select[name=Deporte]").change(function(){
+					//alert($(this).val());
+					if($(this).val()=='Frontenis'){
+						$(".Frontenis").show();
+					} else { $(".Frontenis").hide(); }
+				});
+			});
+		</script>
+
+
+</body>
+
+
+
+<script>
+function myFunction() {
+    alert("Te has registrado exitosamente ");
+}
+</script>
+
+</html>
+
+
